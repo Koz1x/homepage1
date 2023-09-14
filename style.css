@@ -1,27 +1,27 @@
 body {
-    background: #797B84;
+  background: #797b84;
 }
 h2 {
-    color: #5B2333;
+  color: #5b2333;
 }
 .hotpink-header {
-    color: #ff69b4;
+  color: #ff69b4;
 }
 .mainpage {
-    background: #495F41;
-    width: 600px;
-    height:600px;
-    border: 20px solid #202030;
-    margin: 10px;
-    padding: 50px solid #ff69b4;
-    overflow: auto;
-    float: center;
-    box-sizing: border-box;
-    position: absolute;
-    left: 400px;
-    right:200px;
+  background: #495f41;
+  width: 600px;
+  height: 600px;
+  border: 20px solid #202030;
+  margin: 10px;
+  padding: 50px solid #ff69b4;
+  overflow: auto;
+  float: center;
+  box-sizing: border-box;
+  position: absolute;
+  left: 400px;
+  right: 200px;
 }
-#shailushay_img{
-    width:200px;
-    height: 200px;
+#shailushay_img {
+  width: 200px;
+  height: 200px;
 }
