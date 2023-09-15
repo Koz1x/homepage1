@@ -8,9 +8,13 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="nauka-html.html">Nauka html</a>
-        <a href="index.html">strona główna</a>
+      <nav class="navigation">
+        <a
+          class="navigation_link navigation_link--homepage"
+          href="nauka-html.html"
+          >Nauka html</a
+        >
+        <a class="navigation_link" href="index.html">strona główna</a>
       </nav>
     </header>
 
@@ -25,6 +29,7 @@
       <section>
         <h2>Dzień drugi</h2>
         <p>Jestem w trakcie, już zaczyna się programowanie</p>
+        <p class="day-summary__description day-summary__description--js"></p>
       </section>
     </main>
     <script src="main.js"></script>
