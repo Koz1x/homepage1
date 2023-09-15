@@ -1,31 +1,3 @@
 body {
-  background: #f6fff8;
-}
-h2 {
-  color: #5b2333;
-}
-.hotpink-header {
-  color: #ff69b4;
-}
-.mainpage {
-  background: #eaf4f4;
-  max-width: 600px;
-  border: 10px solid #6b9080;
-  margin: 0 auto;
-  padding: 50px solid #ff69b4;
-  overflow: auto;
-  box-sizing: border-box;
-}
-#shailushay_img {
-  padding: 30px;
-  width: 200px;
-  height: 200px;
-}
-.navigation {
-  background: #a4c3b2;
-  padding: 16px;
-  border-radius: 16px;
-}
-.notes {
-  margin: 30px;
+    background: #2C2141;
 }
