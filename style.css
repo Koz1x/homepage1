@@ -1,5 +1,6 @@
 body {
   background: #f6fff8;
+  
 }
 h2 {
   color: #5b2333;
@@ -8,9 +9,11 @@ h2 {
   color: #ff69b4;
 }
 .mainpage {
-  background: #eaf4f4;
-  max-width: 600px;
+  background: rgb(202,230,226);
+background: linear-gradient(0deg, rgba(202,230,226,1) 64%, rgba(94,158,172,1) 100%);
+  max-width: 1000px;
   border: 10px solid #6b9080;
+  border-radius: 16px;
   margin: 0 auto;
   padding: 50px solid #ff69b4;
   overflow: auto;
@@ -25,7 +28,15 @@ h2 {
   background: #a4c3b2;
   padding: 16px;
   border-radius: 16px;
+  display: flex;
+  justify-content: space-around;
 }
 .notes {
   margin: 30px;
+}
+.list {
+  list-style: none;
+}
+.table {
+  width: 100%
 }

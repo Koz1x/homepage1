@@ -17,16 +17,62 @@
       <header id="top">
         <h1>Nauka HTML</h1>
       </header>
-      <section id="notatki">
-        <h2>Moje ulubione zdjęcie</h2>
-        <img id="shailushay_img" src="d70.jpg" alt="shailushay" />
-        <p>Zapoznałem się z podstawami frontend HTML, CSS, JavaScript</p>
-      </section>
-      <section>
-        <h2>Dzień drugi</h2>
-        <p>Jestem w trakcie, już zaczyna się programowanie</p>
-        <p class="day-summary__description day-summary__description--js"></p>
-      </section>
+      <article>
+        <section id="notatki">
+          <h2>Moje ulubione zdjęcie</h2>
+          <img id="shailushay_img" src="d70.jpg" alt="shailushay" />
+          <p>Zapoznałem się z podstawami frontend HTML, CSS, JavaScript</p>
+        </section>
+        <section>
+          <h2>Dzień drugi</h2>
+          <p>Jestem w trakcie, już zaczyna się programowanie</p>
+          <p class="day-summary__description day-summary__description--js"></p>
+          3
+          <section>
+            <h3>Lista fajnych znaczników</h3>
+            <ul>
+              <li>UL</li>
+              <li>OL</li> 
+              <li>
+                section
+                <ol class="list">
+                  <li class="list_item">przeanalizuj tresc</li>
+                  <li class="list_item">podziel ja na sekcje</li>
+                  <li class="list_item">utworz pierwsza wersje kodu</li>
+                </ol>
+              </li>
+            </ul>
+            <dl>
+              <dt>div</dt>
+              <dd>Opis mojego diva</dd>
+
+
+              <dt>article</dt>
+              <dd>Opis mojego artykłu</dd>
+            </dl>
+          </section>
+          <section>
+            <h3>Rozpiska WTF</h3>
+            <table class="table">
+              <caption>Spis odcinków WTF: co ten frontend</caption>
+              <thead>
+                <tr>
+                  <th>lp</th>
+                  <th>tytuł</th>
+                  <th>czas trwania</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>1.</td>
+                  <td>Powitanie</td>
+                  <td>45 minut</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </section>
+      </article>
     </main>
     <footer>To strona z moim dziennikem</footer>
     <script src="main.js"></script>
