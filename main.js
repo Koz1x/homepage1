@@ -80,4 +80,30 @@ switch (myNumber) {
     console.log(myNumber)  
 }
 
-(32>20) ? console.log('to prawda'): console.log('to nieprawda');
+if (32>20) {
+  console.log('to prawda')
+} else {
+  console.log('to nieprawda')
+}
+
+const result = (humanOne.age < humanTwo.age) ? age : false;
+
+console.log(result)
+
+const button = document.querySelector('.action--js');
+
+console.log(button)
+
+button.addEventListener('click', () => {
+    const heading = document.querySelector('.main__heading--js');
+    heading.innerHTML = `Witaj Drogi Odwiedzający, nazywam się ${firstName} i mam ${age} lat`;
+    console.log(heading.classList.contains('main__heading'));
+});
+
+
+const hamburger = document.querySelector('.hamburger--js')
+
+hamburger.addEventListener('click', ()=>{
+  const nav = document.querySelector('.navigation--js')
+  nav.classList.toggle('navigation--open');
+})
