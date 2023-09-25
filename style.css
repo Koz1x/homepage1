@@ -5,6 +5,33 @@ body {
 h2 {
   color: #5b2333;
 }
+
+.day-summary:first-child {
+  background: yellow;
+}
+
+.day-summary__title::before {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: tomato;
+  border-radius: 50%;
+}
+   
+.day-summary__title::after {
+  content: "";
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: tomato;
+  border-radius: 50%;
+}
+
+.input:focus {
+  background: solid yellow;
+}
+
 .hotpink-header {
   color: #ff69b4;
 }
@@ -46,6 +73,24 @@ background: linear-gradient(0deg, rgba(202,230,226,1) 64%, rgba(94,158,172,1) 10
   color: #92140c;
   display: block;
   margin: 0 0 16px;
+}
+
+.navigation_link:visited {
+  color: #ccc;
+}
+
+.navigation_link:focus{
+  color: 3px solid yellow;
+}
+
+
+.navigation_link:hover {
+  color: #1460aa;
+}
+
+
+.day-summary__description:hover {
+  background: hotpink;
 }
 
 .notes {
