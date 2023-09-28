@@ -1,0 +1,24 @@
+{
+  "name": "homepage1",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "sass": "npx node-sass scss/style.scss style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/Koz1x/homepage1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Koz1x/homepage1/issues"
+  },
+  "homepage": "https://github.com/Koz1x/homepage1#readme",
+  "description": "",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}

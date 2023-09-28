@@ -1,14 +1,11 @@
 body {
-  background: #f6fff8;
-  
-}
+  background: #f6fff8; }
+
 h2 {
-  color: #5b2333;
-}
+  color: #5b2333; }
 
 .day-summary:first-child {
-  background: yellow;
-}
+  background: yellow; }
 
 .day-summary__title::before {
   content: "";
@@ -16,114 +13,93 @@ h2 {
   width: 16px;
   height: 16px;
   background: tomato;
-  border-radius: 50%;
-}
-   
+  border-radius: 50%; }
+
 .day-summary__title::after {
   content: "";
   display: inline-block;
   width: 16px;
   height: 16px;
   background: tomato;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
 
 .input:focus {
-  background: solid yellow;
-}
+  background: solid yellow; }
 
 .hotpink-header {
-  color: #ff69b4;
-}
+  color: #ff69b4; }
+
 .mainpage {
-  background: rgb(202,230,226);
-background: linear-gradient(0deg, rgba(202,230,226,1) 64%, rgba(94,158,172,1) 100%);
+  background: #cae6e2;
+  background: linear-gradient(0deg, #cae6e2 64%, #5e9eac 100%);
   max-width: 1000px;
   border: 10px solid #6b9080;
   border-radius: 16px;
   margin: 60px auto 0;
   padding: 50px solid #ff69b4;
   overflow: auto;
-  box-sizing: border-box;
-}
+  box-sizing: border-box; }
+
 #shailushay_img {
   padding: 30px;
   width: 200px;
-  height: 200px;
-}
+  height: 200px; }
 
-.header{
-   background: #fff;
-   min-height: 60px;
-   position: fixed;
-   top: 0;
-   width: 100%;
-}
+.header {
+  background: #fff;
+  min-height: 60px;
+  position: fixed;
+  top: 0;
+  width: 100%; }
 
 .navigation {
   padding: 16px;
-  display: none;
-}
-
-.navigation--open{
-  display: block;
-}
-
-.navigation_link {
-  color: #92140c;
-  display: block;
-  margin: 0 0 16px;
-}
+  display: none; }
+  .navigation--open {
+    display: block; }
+  .navigation_link {
+    color: #92140c;
+    display: block;
+    margin: 0 0 16px; }
 
 .navigation_link:visited {
-  color: #ccc;
-}
+  color: #ccc; }
 
-.navigation_link:focus{
-  color: 3px solid yellow;
-}
-
+.navigation_link:focus {
+  color: 3px solid yellow; }
 
 .navigation_link:hover {
-  color: #1460aa;
-}
-
+  color: #1460aa; }
 
 .day-summary__description:hover {
-  background: hotpink;
-}
+  background: hotpink; }
 
 .notes {
-  margin: 30px;
-}
+  margin: 30px; }
+
 .list {
-  list-style: none;
-}
+  list-style: none; }
+
 .table {
-  width: 100%
-}
+  width: 100%; }
+
 .klasa-z-js {
-  background: yellow;
-}
+  background: yellow; }
+
 .hamburger {
   position: absolute;
   top: 20px;
   right: 10px;
   border: none;
-  background: none;
-}
+  background: none; }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .hamburger {
-    display: none;
-  }
+    display: none; }
   .navigation {
-  
     padding: 16px;
     border-radius: 8px;
     display: flex;
     justify-content: space-around;
     height: 100px;
-    align-items: center;
-  }
-}
+    align-items: center; } }
