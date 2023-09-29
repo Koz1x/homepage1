@@ -1,3 +1,5 @@
+@import "modules/day-summary.scss";
+
 body {
   background: #f6fff8;
 }
@@ -5,7 +7,7 @@ h2 {
   color: #5b2333;
 }
 
-.day_summary {
+.day-summary {
   color: hotpink;
   &:first-child {
     background: yellow;
