@@ -1,0 +1,29 @@
+.day-summary {
+    color: hotpink;
+    &:first-child {
+      background: yellow;
+    }
+    &__title {
+      display: flex;
+      justify-content: center;
+      &::before {
+        content: "";
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: tomato;
+        border-radius: 50%;
+      }
+      &::after {
+        content: "";
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: tomato;
+        border-radius: 50%;
+      }
+      &__description:hover {
+        background: hotpink;
+      }
+    }
+  }

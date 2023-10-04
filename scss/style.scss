@@ -7,35 +7,7 @@ h2 {
   color: #5b2333;
 }
 
-.day-summary {
-  color: hotpink;
-  &:first-child {
-    background: yellow;
-  }
-  &__title {
-    display: flex;
-    justify-content: center;
-    &::before {
-      content: "";
-      display: inline-block;
-      width: 16px;
-      height: 16px;
-      background: tomato;
-      border-radius: 50%;
-    }
-    &::after {
-      content: "";
-      display: inline-block;
-      width: 16px;
-      height: 16px;
-      background: tomato;
-      border-radius: 50%;
-    }
-    &__description:hover {
-      background: hotpink;
-    }
-  }
-}
+
 
 .input:focus {
   background: solid yellow;
@@ -52,7 +24,7 @@ h2 {
     rgba(94, 158, 172, 1) 100%
   );
   max-width: 1000px;
-  border: 10px solid #6b9080;
+  border: 10px solid black; //*#6b9080;
   border-radius: 16px;
   margin: 60px auto 0;
   padding: 50px solid #ff69b4;
